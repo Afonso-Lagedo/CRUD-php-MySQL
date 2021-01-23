@@ -1,16 +1,43 @@
 <?php 
 
-$A = 5;
-$B = 2;
+#while
 
-if ($B % 2 == 1){//condicional  %resto da divisão
-	echo 'numero impar';
+echo"while:";
+$i=0;
+while ($i < 10){
+	echo $i;
+	$i++;
 }
 
-else{
-	echo'numero par';
+
+#do...while
+
+echo"<br>do...while:";
+
+$i=0;
+do{
+	echo $i;
+	$i++;
+}while ($i < 10);
+
+
+#for
+
+echo"<br>for:";
+$i=0;
+for ($i=0; $i < 10;$i++){
+	echo $i;
 }
+
+# foreach
+echo"<br>foreach:";
+$i=[0,1,2,3,4];
+foreach($i as $j){
+	echo $j;
+}
+
 
 
 
 ?>
+
