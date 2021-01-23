@@ -1,43 +1,19 @@
 <?php 
 
-#while
+$var = array(1,2,3,4,5);
 
-echo"while:";
-$i=0;
-while ($i < 10){
-	echo $i;
-	$i++;
+foreach ($var as $v) {
+	echo $v;
 }
 
+$var2 = array("A"=>"teste1", "B"=>"teste2");
 
-#do...while
+print_r($var2);
+echo $var2["A"];
 
-echo"<br>do...while:";
+$var3 = array("teste1","teste2");
 
-$i=0;
-do{
-	echo $i;
-	$i++;
-}while ($i < 10);
-
-
-#for
-
-echo"<br>for:";
-$i=0;
-for ($i=0; $i < 10;$i++){
-	echo $i;
-}
-
-# foreach
-echo"<br>foreach:";
-$i=[0,1,2,3,4];
-foreach($i as $j){
-	echo $j;
-}
-
-
-
+echo $var3[0]; 
 
 ?>
 
