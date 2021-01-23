@@ -1,13 +1,15 @@
-<?php $mensagem = 'hello word';// declarando variável
+<?php 
 
-echo $mensagem;
+$A = 5;
+$B = 2;
 
-$A=2;//declarando variável
-$B=3;
+if ($B % 2 == 1){//condicional  %resto da divisão
+	echo 'numero impar';
+}
 
-$soma = $A + $B; // operações    - * /
-print $soma//imprimindo na tela
-
+else{
+	echo'numero par';
+}
 
 
 
