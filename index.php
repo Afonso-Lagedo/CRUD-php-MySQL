@@ -8,11 +8,9 @@ $database = "teste1";
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $database);
 	
-if (mysqli_query($conexao, "DELETE FROM ALUNOS WHERE ID_ALUNO>4")){
-	echo 'apagado com sucesso';
+if (mysqli_query($conexao, "UPDATE ALUNOS SET NOME_ALUNO='FELIPE' WHERE ID_ALUNO =3 ")){
+	echo'Sucesso';
 }
-else {
-	'falha ao apagar';
-}
+
 ?>
 
