@@ -70,6 +70,72 @@ else{
 	echo "FALHA AO EXECUTAR (cursos_cursos)<br>";	
 }
 
+#INSERINDO DADOS 
+
+$query = "INSERT INTO ALUNOS (nome_aluno, data_nascimento)
+		  VALUES ('Afonso', '1993-09-03')
+		  ";
+
+$executar = mysqli_query($conexao,$query);
+
+if($executar)
+{
+	echo "EXECUTADO COM SUCESSO (insert)<br>";
+}
+else{
+	echo "FALHA AO EXECUTAR (insert)<br>";	
+}
+
+$query = "INSERT INTO ALUNOS (nome_aluno, data_nascimento)
+		  VALUES ('Rafaela', '1991-12-04')
+		  ";
+
+$executar = mysqli_query($conexao,$query);
+
+if($executar)
+{
+	echo "EXECUTADO COM SUCESSO (insert)<br>";
+}
+else{
+	echo "FALHA AO EXECUTAR (insert)<br>";	
+}
+
+
+
+
+$query = "INSERT INTO CURSOS (nome_curso, carga_horaria)
+		  VALUES ('PHP', '10')
+		  ";
+
+$executar = mysqli_query($conexao,$query);
+
+if($executar)
+{
+	echo "EXECUTADO COM SUCESSO (insert)<br>";
+}
+else{
+	echo "FALHA AO EXECUTAR (insert)<br>";	
+}
+
+
+
+
+$query = "INSERT INTO ALUNOS_CURSOS (id_aluno, id_curso)
+		  VALUES ('1', '1')
+		  ";
+
+$executar = mysqli_query($conexao,$query);
+
+if($executar)
+{
+	echo "EXECUTADO COM SUCESSO (insert)<br>";
+}
+else{
+	echo "FALHA AO EXECUTAR (insert)<br>";	
+}
+
+
+
 
 
 
