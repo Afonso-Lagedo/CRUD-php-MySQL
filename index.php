@@ -1,19 +1,20 @@
 <?php 
 
-$var = array(1,2,3,4,5);
+#mysqli
+$servidor = "localhost";
+$usuario = "root";
+$senha = "";
+$database = "teste1";
 
-foreach ($var as $v) {
-	echo $v;
+$conexao = mysqli_connect($servidor, $usuario, $senha, $database);
+	//or die("erro de conexão");
+
+if($conexao){
+	echo "Conectado com sucesso";
 }
-
-$var2 = array("A"=>"teste1", "B"=>"teste2");
-
-print_r($var2);
-echo $var2["A"];
-
-$var3 = array("teste1","teste2");
-
-echo $var3[0]; 
+else{
+	echo "ERRO DE CONEXÃO";	
+}
 
 ?>
 
