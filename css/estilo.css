@@ -1,0 +1,9 @@
+*{ margin: 0; padding: 0; }
+
+body {font-family: helvetica,arial; font-size: 18px; color: #333; }
+header { height: 120px; background-color: #262626; padding: 10px 0;}
+footer { height: 50px; background-color: #44b874; padding: 10px 0;}
+
+.container {margin: 0 auto; width: 600px;}
+
+#conteudo { padding: 30px 0;}

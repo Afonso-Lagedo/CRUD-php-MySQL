@@ -1,3 +1,7 @@
-<?php 
-
-echo 'footer<br>';
+</div>
+<footer>
+	<div class="container">
+		Rodapé
+	</div>
+	
+</footer>
