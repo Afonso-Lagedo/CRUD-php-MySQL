@@ -14,7 +14,11 @@
 	<header>
 		<div class="container">
 			<img src="img/logo.png" title="Logo" alt="Logo">
-			<div id="menu"></div>
+			<div id="menu">
+				<a href="#">Cursos</a>
+				<a href="#">Alunos</a>
+				<a href="#">Matrículas</a>
+			</div>
 		</div>
 	</header>
 

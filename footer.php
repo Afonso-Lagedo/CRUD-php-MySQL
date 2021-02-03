@@ -1,7 +1,7 @@
 </div>
 <footer>
 	<div class="container">
-		Rodapé
+		©2021 Cursos - Todos direitos reservados
 	</div>
 	
 </footer>
