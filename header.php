@@ -13,11 +13,11 @@
 <body>
 	<header>
 		<div class="container">
-			<img src="img/logo.png" title="Logo" alt="Logo">
+			<a href="?pagina=home"><img src="img/logo.png" title="Logo" alt="Logo"></a>
 			<div id="menu">
-				<a href="#">Cursos</a>
-				<a href="#">Alunos</a>
-				<a href="#">Matrículas</a>
+				<a href="?pagina=cursos">Cursos</a>
+				<a href="?pagina=alunos">Alunos</a>
+				<a href="?pagina=matriculas">Matrículas</a>
 			</div>
 		</div>
 	</header>
