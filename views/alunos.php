@@ -10,7 +10,10 @@
 		while($linha = mysqli_fetch_array($consulta_alunos)){
 			echo'<tr><td>'.$linha['nome_aluno'].'</td>';
 			echo'<td>'.$linha['data_nascimento'].'</td>
-				</tr>';
+				';
+		?>
+	<td><a href="deleta_aluno.php?id_aluno=<?php echo $linha['id_aluno'];?>">Deletar</a></td></tr>	
+	<?php
 		}
 
 	?>
