@@ -1,3 +1,5 @@
+<a href="?pagina=inserir_curso">Inserir novo curso</a>
+
 <table style="border: 1px solid #000; width:100% ">
 	<tr>
 		<th>Nome curso</th>

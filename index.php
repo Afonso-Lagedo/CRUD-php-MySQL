@@ -19,9 +19,14 @@ if($pagina=='cursos'){
 	include'views/cursos.php';
 }
 
+elseif($pagina=='inserir_curso'){
+	include'views/inserir_curso.php';
+}
+
 elseif($pagina=='alunos'){
 	include'views/alunos.php';
 }
+
 
 elseif($pagina=='matriculas'){
 	include'views/matriculas.php';
