@@ -4,7 +4,7 @@
 
 body {
 	font-family: helvetica,arial; 
-	font-size: 18px; 
+	font-size: 16px; 
 	color: #333; 
 }
 
@@ -12,6 +12,8 @@ header {
 	height: 70px; 
 	background-color: #262626; 
 	padding: 10px 0;
+	text-align: center;
+	font-size: 12px;
 }
 
 footer { 
@@ -25,23 +27,23 @@ footer {
 
 .container {
 	margin: 0 auto; 
-	width: 600px;
+	width: 800px;
 }
 
 #conteudo { 
-	padding: 
-	50px 0;}
+	padding:50px 0;
+}
 
 #menu {
 	float: right;
-	padding: 25px 0;
+	padding: 28px 0;
 }
 
 #menu a {
 	text-decoration: none;
-	padding: 35px 40px; 
+	padding: 37px 40px; 
 	color: #e3e3e3;
-	text-shadow: 2px 2px 2px #111;
+	text-shadow: 1px 1px 1px #111;
 }
 
 #menu a:hover {background-color: #44b874;}

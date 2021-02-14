@@ -6,8 +6,9 @@
 <head>
 	<title>CURSOS PHP&MYSQL</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet"  href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
-	<link rel="stylesheet"  href="css/estilo.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+	
 
 
 </head>
