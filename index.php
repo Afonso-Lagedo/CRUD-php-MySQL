@@ -1,5 +1,8 @@
 <?php 
 
+#iniciar sessão
+session_start();
+
 #Base de dados
 include 'db.php';
 
@@ -7,13 +10,19 @@ include 'db.php';
 include 'header.php';
 
 
-
 #Conteúdo da página
-if(isset($_GET['pagina'])){
-	$pagina = $_GET['pagina'];
+
+if(isset($_SESSION['login'])){//se existir um login
+	if(isset($_GET['pagina'])){
+		$pagina = $_GET['pagina'];
+	}
+	else{
+		$pagina = 'cursos';
+	}
 }
+
 else{
-	$pagina = 'home';
+		$pagina = 'home';
 }
 
 switch ($pagina) {
