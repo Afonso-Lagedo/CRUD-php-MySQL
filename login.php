@@ -2,8 +2,8 @@
 
 include 'db.php';
 
-$usuario = $_POST['usuario'];
-$senha = $_POST['senha'];
+$usuario = addcslashes($_POST['usuario']);//Para evitar o sql injection x' or 1=1 or 'x'
+$senha = addcslashes($_POST['senha']);
 
 $query = "SELECT*FROM USUARIOS WHERE USUARIO = '$usuario' and SENHA = '$senha'";
 
